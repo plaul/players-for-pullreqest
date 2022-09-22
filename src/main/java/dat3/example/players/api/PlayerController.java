@@ -22,4 +22,9 @@ public class PlayerController {
         return  playerRepository.findAll();
     }
 
+    @GetMapping("f1")
+    String getFeature1(){
+        return "featuer 1";
+    }
+
 }

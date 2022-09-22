@@ -16,7 +16,7 @@ public class SetupPlayers implements CommandLineRunner {
     final
     PlayerRepository playerRepository;
 
-    public SetupPlayers(PlayerRepository playerRepository) {
+    public SetupPlayers(PlayerRepository playerRepository){
         this.playerRepository = playerRepository;
     }
     @Override
